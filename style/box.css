@@ -1,0 +1,38 @@
+.box {
+  width: fit-content;
+  display: grid;
+  padding: 8px;
+  row-gap: 12px;
+  column-gap: 4px;
+  margin: 0 auto;
+  align-items: center;
+
+  grid-template-columns: auto auto;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.box > .title {
+  grid-column: 1 /span 2;
+}
+
+.box > .text:last-child {
+  grid-column: 1/-1;
+  display: flex;
+  justify-content:center;
+}
+
+.title {
+  color: var(--color-gray-tuna);
+  font-size: 48px;
+
+  display: flex;
+  justify-content: center;
+  text-transform: capitalize;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content:end;
+  align-items: center;
+}
