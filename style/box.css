@@ -6,17 +6,16 @@
   column-gap: 4px;
   margin: 0 auto;
   align-items: center;
-
   grid-template-columns: auto auto;
   background-color: rgba(255, 255, 255, 0.75);
 }
 
 .box > .title {
-  grid-column: 1 /span 2;
+  grid-column: 1 /-1;
 }
 
 .box > .text:last-child {
-  grid-column: 1/-1;
+  grid-column: 1 /-1;
   display: flex;
   justify-content:center;
 }
@@ -28,6 +27,11 @@
   display: flex;
   justify-content: center;
   text-transform: capitalize;
+  margin: 0;
+}
+
+.text {
+  margin: 0;
 }
 
 .container {
@@ -35,4 +39,14 @@
   flex-direction: column;
   justify-content:end;
   align-items: center;
+
 }
+
+.container__gap--large {
+  height: 64px;
+}
+
+.container__gap--small {
+  height: 16px;
+}
+
