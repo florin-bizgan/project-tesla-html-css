@@ -4,7 +4,7 @@
   background-size: cover;
   background-position: center;
   background-image: var(--bgi);
-  padding: 32px;
+  /* padding: 32px; */
 
   display: flex;
   flex-direction: column;

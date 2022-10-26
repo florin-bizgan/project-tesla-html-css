@@ -1,12 +1,35 @@
-.button {
-  height: 40px;
-  border-radius: 25px;
+.button--dark,
+.button--light {
   width: 256px;
-  background-color: aliceblue;
+  height: 40px;
+
   border: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: black;
-  color: white;
+  border-radius: var(--border-radius);
+  transition: 250ms;
+  text-transform: uppercase;
+  font-size: 14px;
+  cursor: pointer;
 }
+
+
+.button--dark {
+  background-color: var(--color-shark);
+  color: var(--color-light);
+}
+
+.button--dark:hover {
+  background-color: var(--color-mercury);
+  color: var(--color-dark);
+}
+
+.button--light {
+  background-color: var(--color-mercury);
+  color: var(--color-dark);
+}
+
+.button--light:hover {
+  background-color: var(--color-shark);
+  color: var(--color-light);
+}
+
+
