@@ -1,2 +1,1 @@
-
-Welcome to the Tesla UI with PURE HTML and CSS to delight your eyes.
+Welcome to the Tesla UI with **PURE** _HTML_ and _CSS_ to delight your eyes.
