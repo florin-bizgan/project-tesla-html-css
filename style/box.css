@@ -33,20 +33,3 @@
 .text {
   margin: 0;
 }
-
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content:end;
-  align-items: center;
-
-}
-
-.container__gap--large {
-  height: 64px;
-}
-
-.container__gap--small {
-  height: 16px;
-}
-
